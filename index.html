@@ -1,34 +1,61 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<title>Landing Page</title>
-	<link rel="stylesheet" type="text/css" href="estilos.css">
-</head>
-<body id="body" background="primero.jpg">
+    <head>
+        <meta charset="utf-8">
+        <title>Landing Page</title>
+        <link rel="stylesheet" type="text/css" href="estilos.css">
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+            crossorigin="anonymous">
+    </head>
+    <body id="body" background="primero.jpg">
 
-	<div id="div1" align="center">
-		<form class="form-inline">
-	  <label class="sr-only" for="inlineFormInputName2">Name</label>
-	  <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="Jane Doe">
+        <div id="div1" align="center">
+            <form class="form-group">
+                <input
+                    type="text"
+                    class="form-control mb-2 mr-sm-2"
+                    id="inlineFormInputName2"
+                    placeholder="Nombre...">
 
-	  <div class="input-group mb-2 mr-sm-2">
-	    <div class="input-group-prepend">
-	    </div>
-	    <label class="sr-only" for="inlineFormInputGroupUsername2">Username</label>
-	    <input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Username">
-	  </div>
+                <div class="input-group mb-2 mr-sm-2">
+                    <div class="input-group-prepend"></div>
+                    <input
+                        type="text"
+                        class="form-control"
+                        id="inlineFormInputGroupUsername2"
+                        placeholder="Apellidos...">
+                </div>
 
-	  <div class="form-check mb-2 mr-sm-2">
-	    <input class="form-check-input" type="checkbox" id="inlineFormCheck">
-	    <label class="form-check-label" for="inlineFormCheck">Remember me
-	    </label>
-	  </div>
+                <div class="form-check mb-2 mr-sm-2"></div>
+            </form>
 
-	  <button type="submit" class="btn btn-primary mb-2">Submit</button>
-</form>
+            <form>
 
-	</div>
-	
-</body>
+                <div class="col-sm-10 form-group">
+                    <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                    <br>
+                    <input class="form-check-input" type="checkbox" id="inlineFormCheck">
+                    <label class="form-check-label" for="inlineFormCheck">Recordarme
+                    </label>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+            </form>
+        </div>
+
+        <div>
+
+            <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                    <h1 class="display-3">N.A.S.A</h1>
+                    <p class="lead">Bienvenidos a la Landing Page de la NASA donde podréis apuntaros
+                        para aprender y poder estudiar con nuestros mejores trabajadores.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </body>
 </html>
